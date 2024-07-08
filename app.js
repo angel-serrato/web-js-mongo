@@ -1,5 +1,6 @@
 const express = require('express')
 const expressLayout = require('express-ejs-layouts')
+const methodOverride = require('method-override')
 const flash = require('connect-flash');
 const session = require('express-session')
 const dotenv = require('dotenv')
@@ -16,6 +17,8 @@ const PORT = process.env.PORT || 5000
 app.use(express.urlencoded({ extended: true }))
 // Middleware que parsea los datos JSON enviados en el cuerpo de las solicitudes
 app.use(express.json())
+
+app.use(methodOverride('_method'))
 app.use(
     session({
         secret: 'secret',
