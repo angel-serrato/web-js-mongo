@@ -51,7 +51,6 @@ exports.addCustomer = async (req, res) => {
 
 // POST Create new customer
 exports.postCustomer = async (req, res) => {
-  console.log(req.body);
   const newCustomer = new Customer({
     firstName: req.body.firstName,
     lastName: req.body.lastName,

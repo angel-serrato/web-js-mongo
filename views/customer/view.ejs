@@ -5,8 +5,8 @@
   </h1>
   <div class="btn-toolbar mb-2 mb-md 0">
     <div class="btn-group me-2">
-      <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-      <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary">Compartir</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary">Exportar</button>
     </div>
   </div>
 </div>
@@ -16,7 +16,7 @@
     <div class="col">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+          <li class="breadcrumb-item"><a href="/">Panel de administración</a></li>
           <li class="breadcrumb-item active">
             <%= customer.firstName %>
           </li>
@@ -24,8 +24,8 @@
       </nav>
     </div>
     <div class="col text-end fw-lighter">
-      <b>Last Updated <%= new Date(customer.updatedAt).toUTCString() %> </b>
-      <b>UserId:</b>
+      <b>Última actualización <%= new Date(customer.updatedAt).toUTCString() %> </b>
+      <b>ID del usuario:</b>
       <%= customer._id %>
     </div>
   </div>
@@ -34,7 +34,7 @@
 <ul class="list-group">
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Name:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Nombre:</b></div>
       <div class="col">
         <%= customer.firstName %>
           <%= customer.lastName %>
@@ -43,7 +43,7 @@
   </li>
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Tel:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Teléfono:</b></div>
       <div class="col">
         <%= customer.tel %>
       </div>
@@ -51,7 +51,7 @@
   </li>
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Email:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Correo electrónico:</b></div>
       <div class="col">
         <%= customer.email %>
       </div>
@@ -59,7 +59,7 @@
   </li>
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Details:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Detalles:</b></div>
       <div class="col">
         <%= customer.details %>
       </div>
@@ -67,7 +67,7 @@
   </li>
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Date Created:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Fecha de creación:</b></div>
       <div class="col">
         <%= customer.createdAt %>
       </div>
@@ -75,7 +75,7 @@
   </li>
   <li class="list-group-item">
     <div class="row">
-      <div class="col" style="max-width: 140px"> <b>Date Modified:</b></div>
+      <div class="col" style="max-width: 140px"> <b>Fecha de modificación:</b></div>
       <div class="col">
         <%= customer.updatedAt %>
       </div>
