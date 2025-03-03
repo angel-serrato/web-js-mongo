@@ -79,7 +79,7 @@ Este proyecto está bajo la licencia MIT.
 
 ## Contact
 
-- Website [portfolio-angel-serrato.vercel.app](https://portfolio-angel-serrato.vercel.app/)
+- Website [https://serrato.dev/](https://serrato.dev/)
 - GitHub [@angel-serrato](https://github.com/angel-serrato)
 - LinkedIn [/in/angel-serrato/](https://www.linkedin.com/in/angel-serrato/)
 
